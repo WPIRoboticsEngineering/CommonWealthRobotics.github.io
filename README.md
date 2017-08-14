@@ -1,13 +1,13 @@
-CommonWealthRobotics.github.io
+WPIRoboticsEngineering.github.io
 ========================
 
 The Website for the Bowler System
 
-http://CommonWealthRobotics.github.io/
+http://WPIRoboticsEngineering.github.io/
 
 Build monitor:
 
-https://travis-ci.org/CommonWealthRobotics/CommonWealthRobotics.github.io
+https://travis-ci.org/WPIRoboticsEngineering/WPIRoboticsEngineering.github.io
 
 ## How this thing works ##
 * The content directory will become the root of the website.
@@ -23,9 +23,9 @@ see this link for updating .congif.yaml with a new token. https://gist.github.co
 
 ## Local Compile ##
 ```
-  git clone https://github.com/CommonWealthRobotics/CommonWealthRobotics.github.io.git
+  git clone https://github.com/WPIRoboticsEngineering/WPIRoboticsEngineering.github.io.git
   sudo apt-get install ruby2.3-dev  bundler
-  cd into CommonWealthRobotics.github.io
+  cd into WPIRoboticsEngineering.github.io
   bundle install
   bundle exec nanoc view && bundle exec guard
   
@@ -35,7 +35,7 @@ see this link for updating .congif.yaml with a new token. https://gist.github.co
   sudo port install ruby19
   sudo port install rb19-bundler
   bundle-1.9 install
-  cd CommonWealthRobotics.github.io
+  cd WPIRoboticsEngineering.github.io
   bundle-1.9 exec nanoc view && bundle-1.9 exec guard
 
 
@@ -153,13 +153,4 @@ menuname: "Home"
 You need to define two variables. `GH_TOKEN` and `GIT_NAME` in your project's travis-ci settings.
 Your `GIT_NAME` should match the username of the account you used to generate your github token and your `GH_TOKEN` should be generated as per these instructions. https://help.github.com/articles/creating-an-access-token-for-command-line-use/
 
-## Updating download links ##
-
-On the new landing page the download links come from the frontmatter in the `index.md` file.
-Update them by comitting a new index.md file with updated links to this repo.
-```
-winInstaller: "https://github.com/CommonWealthRobotics/BowlerStudio/releases/download/*.*.*/Windows-nrdk-*.*.*.exe"
-linInstaller: "https://github.com/CommonWealthRobotics/BowlerStudio/releases/download/*.*.*/Ubuntu-nrdk-*.*.*.deb"
-macInstaller: "https://github.com/CommonWealthRobotics/BowlerStudio/releases/download/*.*.*/MacOSX-nrdk-*.*.*.zip"
-```
 

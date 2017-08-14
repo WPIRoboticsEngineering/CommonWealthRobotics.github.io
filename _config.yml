@@ -11,7 +11,7 @@ destination: ../cwsite/
 # repo defaults to USERNAME.github.io
 # Branch defaults to "source" for USERNAME.github.io
 # or "master" otherwise
-username: madhephaestus
+username: WPIRoboticsEngineering
 repo: WPIRoboticsEngineering.github.io
 branch: source
 permalink: /:categories/:title

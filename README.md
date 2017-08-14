@@ -11,7 +11,7 @@ https://travis-ci.org/WPIRoboticsEngineering/WPIRoboticsEngineering.github.io
 
 ## How this thing works ##
 * The content directory will become the root of the website.
-  - content/foo.md will become http://domain.com/foo/
+  - content/bar.md will become http://domain.com/bar/
   - content/folder/thing.md will become http://domain.com/folder/thing/
   - content/folder/image.jpg will become http://domain.com/folder/image.jpg
   - ...etc
@@ -58,7 +58,7 @@ Here is an example
 content/
   my-new-tut/
     index.md
-    foo.md
+    bar.md
     bar.md
     baz.md
     image1.jpg
@@ -71,7 +71,7 @@ The `index.md` describes a tutorial and looks like this
 tutorial: true
 title: "My Simple Tutorial"
 order: 2
-image: foo.jpeg
+image: bar.jpeg
 ---
 [tutorial description]
 ```

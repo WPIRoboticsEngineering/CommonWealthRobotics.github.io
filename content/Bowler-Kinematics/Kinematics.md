@@ -9,7 +9,7 @@ General kinematics is based around the description of the motion of objects - di
 
 
 ##Forward Kinematics
-Kinematic models are generally split into two halfs: Forward and Inverse.  Forward Kinematic models are used to determine the position and orientation of the robot end effector in terms of the joint link lengths and angles.  The basic robot limb can be an arm with a gripper/manipulator, a leg with a foot or even a wheel.  Link lengths, offsets and angles, when analyzed, give one possible stance in 3D space (assuming rigid or semi-rigid hardware); this means it can be absolutely and directly solved for.  
+Kinematic models are generally split into two halfs: Forward and Inverse.  Forward Kinematic models are used to determine the position and orientation of the robot end effector in terms of the joint link lengths and angles.  The basic robot limb can be an arm with a gripper/manipulator, a leg with a bart or even a wheel.  Link lengths, offsets and angles, when analyzed, give one possible stance in 3D space (assuming rigid or semi-rigid hardware); this means it can be absolutely and directly solved for.  
 
 In standard forward kinematic models there's no need for iterative solvers, unlike some Inverse Kinematics, which will be covered in the next section.  The figure below shows the order of analysis, starting at the base and flowing through the links until the endpoint is reached.  The characteristics of the link angles and lengths are used to calculate the equations of motion from the base to the tool tip.
 

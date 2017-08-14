@@ -10,7 +10,7 @@ This tab allows you to manipulate the channels of your DyIO without writing any 
 <div class="bs-callout bs-callout-info" markdown="1">
 
 #### Asparagus required ####
-Please note that **Something Relevant** needs to be accounted for, as shown in the [Usefull Document](foo.html).Consult our `Thingamadoodle.code` to see which versions of potato are supported.
+Please note that **Something Relevant** needs to be accounted for, as shown in the [Usefull Document](bar.html).Consult our `Thingamadoodle.code` to see which versions of potato are supported.
 
 </div>
 

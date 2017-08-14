@@ -108,7 +108,7 @@ body {
 	border-color: #f9f9f9
 }
 
-.bs-docs-footer {
+.bs-docs-barter {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	margin-top: 100px;
@@ -117,23 +117,23 @@ body {
 	border-top: 1px solid #e5e5e5
 }
 
-.bs-docs-footer-links {
+.bs-docs-barter-links {
 	padding-left: 0;
 	margin-top: 20px;
 	color: #999
 }
 
-.bs-docs-footer-links li {
+.bs-docs-barter-links li {
 	display: inline;
 	padding: 0 2px
 }
 
-.bs-docs-footer-links li:first-child {
+.bs-docs-barter-links li:first-child {
 	padding-left: 0
 }
 
 @media ( min-width :768px) {
-	.bs-docs-footer p {
+	.bs-docs-barter p {
 		margin-bottom: 0
 	}
 }
@@ -366,7 +366,7 @@ body {
 	border-bottom: 1px solid #e5e5e5
 }
 
-.bs-docs-featurette+.bs-docs-footer {
+.bs-docs-featurette+.bs-docs-barter {
 	margin-top: 0;
 	border-top: 0
 }

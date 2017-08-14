@@ -45,36 +45,36 @@ end
 
 route '*' do
   if item[:extension] == 'css'
-    # Write item with identifier /foo/ to /foo.css
+    # Write item with identifier /bar/ to /bar.css
     item.identifier.chop + '.css'
   elsif item[:extension] == 'js'
-    # Write item with identifier /foo/ to /foo.css
+    # Write item with identifier /bar/ to /bar.css
     item.identifier.chop + '.js'
   elsif item[:extension] == 'svg'
-    # Write item with identifier /foo/ to /foo.css
+    # Write item with identifier /bar/ to /bar.css
     item.identifier.chop + '.svg'
   elsif item[:extension] == 'ttf'
-    # Write item with identifier /foo/ to /foo.css
+    # Write item with identifier /bar/ to /bar.css
     item.identifier.chop + '.ttf'
   elsif item[:extension] == 'otf'
-    # Write item with identifier /foo/ to /foo.css
+    # Write item with identifier /bar/ to /bar.css
     item.identifier.chop + '.otf'
   elsif item[:extension] == 'wof'
-    # Write item with identifier /foo/ to /foo.css
+    # Write item with identifier /bar/ to /bar.css
     item.identifier.chop + '.wof'
   elsif item[:extension] == 'eot'
-    # Write item with identifier /foo/ to /foo.css
+    # Write item with identifier /bar/ to /bar.css
     item.identifier.chop + '.eot'
   elsif item[:extension] == nil
     # so it doesnt explode when someone drops a file without an extention in
     item.identifier.chop
   elsif item.binary?
-    # Write item with identifier /foo/ to /foo.ext
+    # Write item with identifier /bar/ to /bar.ext
     if item[:extension] != nil
         item.identifier.chop + '.' + item[:extension]
     end
   else
-    # Write item with identifier /foo/ to /foo/index.html
+    # Write item with identifier /bar/ to /bar/index.html
     item.identifier + 'index.html'
   end
 end
